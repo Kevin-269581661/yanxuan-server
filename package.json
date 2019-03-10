@@ -1,0 +1,31 @@
+{
+  "name": "yanxuan-server",
+  "version": "1.0.0",
+  "description": "严选-服务器",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js",
+    "dev": "node-dev ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kevin-269581661/yanxuan-server.git"
+  },
+  "keywords": [
+    "严选"
+  ],
+  "author": "YeYunfeng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kevin-269581661/yanxuan-server/issues"
+  },
+  "homepage": "https://github.com/Kevin-269581661/yanxuan-server#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "multer": "^1.4.1",
+    "mysql": "^2.16.0"
+  }
+}
